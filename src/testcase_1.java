@@ -1,0 +1,26 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class testcase_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 /* x driver = new x()
+		  * similarly for class name = chremedriver,
+		  * chromedriver driver = new chromedriver()
+		  * webdriver is the interface so
+		  * webdriver driver = new chromedriver     
+		  */
+		// invoke .exe file first
+		System.setProperty("webdriver.chrome.driver", "C:\\work\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("http://gmail.com");
+		System.out.println(driver.getCurrentUrl());
+		driver.navigate().to("https://facebook.com");
+		driver.navigate().back();
+		
+		driver.quit();
+		
+	}
+
+}
