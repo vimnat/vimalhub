@@ -62,27 +62,6 @@ public class chrome_prismstatus_week {
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	
 	}
 
