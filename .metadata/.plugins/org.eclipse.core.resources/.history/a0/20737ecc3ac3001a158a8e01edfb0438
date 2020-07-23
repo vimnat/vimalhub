@@ -1,0 +1,18 @@
+package org.greenstech;
+
+import java.util.Scanner;
+
+public class Factorial {
+
+	public static void main(String[] args) {
+		System.out.println("Enter the number to find Factorial: ");
+		Scanner s=new Scanner(System.in);
+		int a=s.nextInt();
+		for (int i=a;i>0;i--) {
+			System.out.println("a");
+		}
+	
+
+	}
+
+}

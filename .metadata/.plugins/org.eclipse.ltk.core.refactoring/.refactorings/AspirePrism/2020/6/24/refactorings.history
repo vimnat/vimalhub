@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;chrome_spicejet&apos; to &apos;chrome_spicejet_static&apos;&#x0D;&#x0A;- Original project: &apos;Test Suit 1&apos;&#x0D;&#x0A;- Original element: &apos;chrome_spicejet&apos;&#x0D;&#x0A;- Renamed element: &apos;chrome_spicejet_static&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;chrome_spicejet&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{chrome_spicejet.java[chrome_spicejet" matchStrategy="1" name="chrome_spicejet_static" qualified="false" references="true" similarDeclarations="false" stamp="1591540544999" textual="false" version="1.0"/>
+</session>

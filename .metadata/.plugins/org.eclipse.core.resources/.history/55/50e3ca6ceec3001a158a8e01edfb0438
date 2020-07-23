@@ -1,0 +1,20 @@
+package org.greenstech;
+
+public class AssigString {
+
+	public static void main(String[] args) {
+		String s="Greens Technology";
+		System.out.println(s.length());
+		String a="SeleniumAutomationtool";
+		System.out.println(a.length());
+		String b="velmurugan";
+		System.out.println(b.length());
+		String c="j a v a p r o g r a m";
+		System.out.println(c.length());
+		String d="j9095484678";
+		System.out.println(d.length());
+		
+
+	}
+
+}

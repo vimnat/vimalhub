@@ -1,0 +1,16 @@
+package org.greenstech;
+
+import java.util.Scanner;
+
+public class SumOdd {
+	/*QUESTION 4:
+------------
+Description: Find the sum of odd number 1 to 100*/
+
+	public static void main(String[] args) {
+		for(i)
+		
+
+	}
+
+}

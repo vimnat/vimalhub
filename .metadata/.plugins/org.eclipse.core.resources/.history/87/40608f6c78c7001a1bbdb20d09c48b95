@@ -1,0 +1,343 @@
+package org.greenstech;
+
+import java.util.Scanner;
+
+public class AssigString {
+
+	public static void main(String[] args) {
+		
+	//QUESTION 1:
+	//	Description: Find the length of the below string
+		Scanner sc=new Scanner(System.in);
+		/*String s="Greens Technology";
+		System.out.println(s.length());
+		System.out.println(s.charAt(1));
+		String a="SeleniumAutomationtool";
+		System.out.println(a.length());
+		String b="velmurugan";
+		System.out.println(b.length());
+		String c="j a v a p r o g r a m";
+		System.out.println(c.length());
+		String d="9095484678";
+		System.out.println(d.length());
+		
+		//QUESTION 2:
+		//	Find the particular character index  in the given string
+		//Find the last index of o
+		String e="GreensTechnology";
+		System.out.println(e.lastIndexOf("o")+ " -last index of "+e);
+		String f="SeleniumAutomationtool ";
+		System.out.println(f.lastIndexOf("o")+ " -last index of "+f);
+		String g="Velmurugan ";
+		System.out.println(g.indexOf("n")+ " -index of "+g);
+		String h="j a v a p r o g r a m";
+		System.out.println(h.lastIndexOf(" ")+ " -last index of "+h);
+		String z="9095484678 ";
+		System.out.println(z.lastIndexOf("8")+ " - last index of"+z);
+		
+		//Question 4:
+		//Description : Get two input from user and check the equality
+        //: print in the output whether it is Equal or not
+		System.out.println("Enter the first word");
+		
+		String j=sc.nextLine();
+		System.out.println("Enter the second word");
+		String k=sc.nextLine();
+		System.out.println(j);
+		System.out.println(k);
+		j.equalsIgnoreCase(k);
+		if(j.contentEquals(k)) {
+			System.out.println("both words are equal");
+		}
+		else {
+			System.out.println("not equal");
+		}
+		System.out.println("Both words are equal ingnoring cases: " +j.equalsIgnoreCase(k));
+		
+		//Question 4:
+		//Description : Get the email id from the user and verify '@' is present or not?
+		System.out.println("Enter the mail address: ");
+		String l=sc.nextLine();
+		for(int i=l.length()-1;i>=0;i--) {
+			char ch=l.charAt(i);
+			System.out.println("\t"+ch);
+		}
+			if(l.contains("@")) {
+				System.out.println(l+" is a valid mail id");
+			}
+			else {
+				System.out.println(l+ "is not a valid mail id");
+			}
+		//Question 5.2:
+		//Description : Get the address from the user and verify "pincode" is present or not?		
+		System.out.println("Enter Permanent address: ");
+		String m=sc.nextLine();
+		if(m.contains("pincode")) {
+			System.out.println("valid Address ");
+		}
+		else {
+			System.out.println("Not a valid address");
+		}
+		//Question 5.3:
+		//Description:Get the email from the user and verify '@' is present or not and return true or false?
+		System.out.println("Enter Mail address: ");
+		String n=sc.nextLine();
+		boolean flag=false;
+		
+		if(n.contains("@")) {
+			flag=!flag;
+			System.out.println(n+" is a valid mail id "+flag);
+		}
+		else {
+			System.out.println(n+ "is not a valid mail id "+flag);
+		}*/
+		
+		
+		/*
+		//Question 5.4:
+		//Description:Get the phonenumber from the user and verify any character is present or not .
+        //If character is present return invalid number
+		System.out.println("Enter Phone number: ");
+		String o=sc.nextLine();
+		boolean num = false;
+		for(int i=o.length()-1;i>=0;i--) {
+		num=Character.isDigit(o.charAt(i));
+			if(num==false) {
+				System.out.println("num in false loop: "+num);
+			break;
+			}
+			else {
+				System.out.println("num in true loop: "+num);
+			}
+
+		}
+		System.out.println("num: "+num);
+		if(num==false) {
+			System.out.println("Number is not valid");
+		}
+		else if(num==true) {
+			System.out.println("Number is valid");
+		}
+		else {
+			System.out.println("Number is not valid");
+		}*/
+		
+		/*
+		//Question 6:
+		//Get the phonenumber from the user  .
+         // If phonenumber exceeds greater than 10 then return invalid number
+		
+		System.out.println("Enter Phone number: ");
+		String p=sc.nextLine();
+		int len=p.length();
+		System.out.println(len);
+		boolean num = false;
+		int n1=0;
+		int s1=0;
+		for(int i=0;i<=p.length()-1;i++) {
+		num=Character.isDigit(p.charAt(i));
+			if(num==false) {
+				//System.out.println("num in false loop: "+num);
+				n1=1;
+			break;
+			}
+			else {
+				//System.out.println("num in true loop: "+num);
+				n1=2;
+					if(len==10) {
+						//System.out.println(j);
+						s1=1;
+					}
+					else {
+						s1=2;
+					}
+				
+			}
+				
+		}
+		//System.out.println("num: "+num);
+		switch (n1){
+		case 1:
+			System.out.println("Number contains Characters - NOT VALID");
+			break;
+		case 2:
+			System.out.println("Number does not contains Characters -VALID");
+			if(n1==2) {
+				switch(s1) {
+				case 1:
+					System.out.println("and number is a valid 10 digits- VALID");
+					break;
+				case 2:
+					System.out.println("But number does not contains 10 digits- NOT VALID");
+					break;	
+				}		
+			}
+			break;
+		default:
+		    System.out.println("Number contains Characters- NOT VALID");		
+		}*/
+		
+	
+		//QUESTION 7.1:
+		//Description:Given string as "Welcome to java class" and replace java into sql.
+		/*
+		String q = "Welcome to java class";
+		System.out.println(q);
+		System.out.println(q.replace("java", "sql"));
+		
+		//7.2- Description:Given string as "Greens Adayar"and replace Adayar into Omr.
+		String r = "Greens Adayar";
+		System.out.println(r);
+		System.out.println(r.replace("Adayar", "omr"));
+		
+		//7.3 - Description: Given String as "Welcome to java class" and Replace space into '#'
+		String s = "Welcome to java class";
+		System.out.println(s);
+		System.out.println(s.replace(" ", "#"));
+		
+		//7.4 - Description:Get the email from the user and verify "gmail" is present or not.
+        //  If present replace that gmail into yahoo
+		System.out.println("Enter mail address: ");
+		String t=sc.nextLine();
+		if(t.contains("gmail")) {
+			String st = t.replace("gmail", "yahoo");
+			System.out.println(st);
+		}
+		else {
+			System.out.println(t);
+		}
+		//7.5 - Description:Get the address from the user and verify "pincode" is present or not.
+        //If present replce the pincode with empty space
+		System.out.println("Enter address: ");
+		String u=sc.nextLine();
+		if(u.contains("pincode")) {
+			String ut = u.replace("pincode", " ");
+			
+			System.out.println(ut);
+		}
+		else {
+			System.out.println(u);
+		}*/
+		
+		/*
+		//QUESTION 8.1
+		//Description:Get the input from the user and print that word in lowercase
+		System.out.println("Enter word in CAPS");
+		String a=sc.nextLine();
+		System.out.println(a.toLowerCase());
+		
+		//QUESTION 8.2
+		//Description:Get the input from the user and print that word in lowercase
+		System.out.println("Enter word in lower case");
+		String b=sc.nextLine();
+		System.out.println(b.toUpperCase());
+		
+		//QUESTION 8.3
+		//Description:Convert all small letter and into capital letter
+		System.out.println("Enter word to convert lower case to upper case and viceversa ");
+		String c=sc.nextLine();
+		String st;
+		for(int i=0;i<c.length();i++) {
+			Character ch=c.charAt(i);
+			//System.out.println(ch);
+			if(Character.isLowerCase(ch)){
+				System.out.print(Character.toUpperCase(ch));
+			} 
+			else {
+				System.out.print(Character.toLowerCase(ch));
+			}
+			
+		}
+		//QUESTION 8.4
+		//Description:Find the number of uppercase count and lowercase count in the given String
+		System.out.println("\n");
+		System.out.println("Enter word to get the count of lower and upper case ");
+		String d=sc.nextLine();
+		int k=0;
+		int h=0;
+	
+		for(int i=0;i<d.length();i++) {
+			Character ch1=d.charAt(i);
+			if(Character.isLowerCase(ch1)){
+				k++;
+				//System.out.println("LC: "+k);
+			} 
+			else {
+				h++;
+				//System.out.println("UC: "+h);
+			}
+			
+		}
+		System.out.println("Lower case count is: "+k);
+		System.out.println("Upper case count is: "+h);*/
+		/*
+		//QUESTION 9.1 and 9.2
+		//Description: Given String as "Welcome to java class" and verify whether the given string startsWith welcome
+		//Description: Given String as "Hai i am nisha" and verify whether the given string startsWith welcome
+		System.out.println("Verify the given String starts with Welcome");
+		String wel=sc.nextLine();
+		boolean ver = wel.startsWith("Welcome");
+		if(ver==true) {
+			System.out.println("Given word starts with Welcome: "+ver);
+		}
+		else
+		{
+			System.out.println("Does not starts with welcome: "+ver);
+		}
+		//QUESTION 9.3 and 9.4, 9.5 and 9.6
+		//Description: Given String as "Welcome to java class" and verify whether the given string endsWith class
+		//Description: Given String as "Welcome to java class" and verify whether the given string endsWith java
+		//Description: Given String as "Welcome to java class" and verify whether the string is empty or not
+		//Description: Given String as "" and verify whether the string is empty or not
+		System.out.println("Verify the given String ends with Class");
+		String wel1=sc.nextLine();
+		System.out.println("Verify the given String ends with java");
+		String wel2=sc.nextLine();
+		System.out.println("Verify the given String is empty or not?: ");
+		String wel3=sc.nextLine();
+		boolean ver1 = wel1.endsWith("class");
+		boolean ver2 = wel2.endsWith("java");
+		boolean ver3 = wel3.isEmpty();
+		if(ver1==true) {
+			System.out.println("Given word ends with class: "+ver1);
+		}
+		else
+		{
+			System.out.println("Does not ends with class: "+ver1);
+		}
+		if(ver2==true) {
+			System.out.println("Given word ends with java: "+ver2);
+		}
+		else
+		{
+			System.out.println("Does not ends with java: "+ver2);
+		}
+		if(ver3==true) {
+			System.out.println("Given word is Empty: "+ver3);
+		}
+		else
+		{
+			System.out.println("Given word is not Empty: "+ver3);
+		}*/
+		
+		//QUESTION 10
+		//Description : Get two input from user and Compare 
+		System.out.println("Enter first word: ");
+		String word1=sc.nextLine();
+		System.out.println("Enter second word: ");
+		String word2=sc.nextLine();
+		boolean comp = word1.contentEquals(word2);
+		if(comp==true) {
+			System.out.println("both words are equal");
+		}
+		else {
+			System.out.println("both words are not equal");
+		}
+		
+		
+		
+
+	
+	}
+
+}

@@ -1,0 +1,30 @@
+package org.greenstech;
+
+public class ArrayLength {
+
+	public static void main(String[] args) {
+		
+		//QUESTION 4.1:
+		//Description : Create a new ArrayListlist with values and find the length of it
+			             // Input : List = 10,20,30,90,10,10,40,50
+		String s="Enter Array";
+		int[] arr= {10,20,30,90,10,10,40,50};
+		s.length();
+		int k=0;
+		for (int i = 0; i < arr.length; i++) {
+			k++;	
+		}
+		System.out.println("Length of Array: "+k);
+		
+		//QUESTION 4.2:
+	    //Description : Create a new LinkedListlist with values and find the length of it
+			            //  Input : List = 100,200,300,400,500,600,700
+		
+		
+		
+		
+		
+
+	}
+
+}

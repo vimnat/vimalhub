@@ -1,0 +1,40 @@
+package org.greenstech;
+
+public class AssigString {
+
+	public static void main(String[] args) {
+		
+	//QUESTION 1:
+	//	Description: Find the length of the below string
+		String s="Greens Technology";
+		System.out.println(s.length());
+		String a="SeleniumAutomationtool";
+		System.out.println(a.length());
+		String b="velmurugan";
+		System.out.println(b.length());
+		String c="j a v a p r o g r a m";
+		System.out.println(c.length());
+		String d="9095484678";
+		System.out.println(d.length());
+		
+		//QUESTION 2:
+		//	Find the particular character index  in the given string
+		//Find the last index of o
+		String e="GreensTechnology";
+		System.out.println(e.lastIndexOf("o"));
+		String f="SeleniumAutomationtool ";
+		System.out.println(f.lastIndexOf("o"));
+		String g="Velmurugan ";
+		System.out.println(g.indexOf("n"));
+		String h="j a v a p r o g r a m";
+		System.out.println(g.lastIndexOf(" "));
+		String i="9095484678 ";
+		System.out.println(i.lastIndexOf(i+"8"));
+		
+		
+		
+		
+
+	}
+
+}

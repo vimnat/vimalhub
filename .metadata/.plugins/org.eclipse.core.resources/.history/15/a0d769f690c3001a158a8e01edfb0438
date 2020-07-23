@@ -1,0 +1,31 @@
+package org.greenstech;
+
+import java.util.Scanner;
+
+public class Amstrong {
+
+	public static void main(String[] args) {
+		System.out.println("Enter the number: ");
+		Scanner s=new Scanner(System.in);
+		int a=s.nextInt();
+		int b=a;
+		//System.out.println(x);
+		int c = 0;
+		int d;
+		while(a>0) {
+			d=a%10;
+			c=c+(d*d*d);
+			a=a/10;
+		}
+		System.out.println("a"+a);
+		System.out.println("b"+b);
+		if(b==a) {
+			System.out.println("Amstrong number");
+		}
+		else {
+			System.out.println("not a ");
+		}
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package org.dtypes;
+
+import java.util.Scanner;
+
+public class FlightTicket {
+	
+	public void scannereg() {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter your name: ");  
+		String name = sc.nextLine();
+		System.out.println("Name is "+ name);
+		 
+	}
+
+	public static void main(String[] args) {
+		
+		FlightTicket ft = new FlightTicket();
+		ft.scannereg();
+	}
+
+}

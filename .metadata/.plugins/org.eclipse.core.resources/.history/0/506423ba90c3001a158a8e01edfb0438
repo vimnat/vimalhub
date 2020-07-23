@@ -1,0 +1,24 @@
+package org.greenstech;
+
+import java.util.Scanner;
+
+public class Amstrong {
+
+	public static void main(String[] args) {
+		System.out.println("Enter the number: ");
+		Scanner s=new Scanner(System.in);
+		String b=s.next();
+		int x=b.charAt(0);
+		System.out.println(x);
+		System.out.println(b.charAt(0));
+		int c=b.length();
+		System.out.println(c);
+		
+		
+		
+		
+		//for(int i=1;)
+
+	}
+
+}

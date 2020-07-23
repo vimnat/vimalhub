@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order= "false">
+  <test name="test1" preserve-order= "false">
+    <classes>
+      <class name="Tutorial.Day3"/>
+    </classes>
+  </test>
+  
+  <test name="Test" preserve-order= "false">
+    <classes>
+      <class name="Tutorial.Annot"/>
+    </classes>
+  </test> 
+  
+</suite> 

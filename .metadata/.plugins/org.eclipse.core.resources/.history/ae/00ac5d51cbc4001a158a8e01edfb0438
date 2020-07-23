@@ -1,0 +1,133 @@
+package org.greenstech;
+
+import java.util.Scanner;
+
+public class AssigString {
+
+	public static void main(String[] args) {
+		
+	//QUESTION 1:
+	//	Description: Find the length of the below string
+		Scanner sc=new Scanner(System.in);
+		/*String s="Greens Technology";
+		System.out.println(s.length());
+		System.out.println(s.charAt(1));
+		String a="SeleniumAutomationtool";
+		System.out.println(a.length());
+		String b="velmurugan";
+		System.out.println(b.length());
+		String c="j a v a p r o g r a m";
+		System.out.println(c.length());
+		String d="9095484678";
+		System.out.println(d.length());
+		
+		//QUESTION 2:
+		//	Find the particular character index  in the given string
+		//Find the last index of o
+		String e="GreensTechnology";
+		System.out.println(e.lastIndexOf("o")+ " -last index of "+e);
+		String f="SeleniumAutomationtool ";
+		System.out.println(f.lastIndexOf("o")+ " -last index of "+f);
+		String g="Velmurugan ";
+		System.out.println(g.indexOf("n")+ " -index of "+g);
+		String h="j a v a p r o g r a m";
+		System.out.println(h.lastIndexOf(" ")+ " -last index of "+h);
+		String z="9095484678 ";
+		System.out.println(z.lastIndexOf("8")+ " - last index of"+z);
+		
+		//Question 4:
+		//Description : Get two input from user and check the equality
+        //: print in the output whether it is Equal or not
+		System.out.println("Enter the first word");
+		
+		String j=sc.nextLine();
+		System.out.println("Enter the second word");
+		String k=sc.nextLine();
+		System.out.println(j);
+		System.out.println(k);
+		j.equalsIgnoreCase(k);
+		if(j.contentEquals(k)) {
+			System.out.println("both words are equal");
+		}
+		else {
+			System.out.println("not equal");
+		}
+		System.out.println("Both words are equal ingnoring cases: " +j.equalsIgnoreCase(k));
+		
+		//Question 4:
+		//Description : Get the email id from the user and verify '@' is present or not?
+		System.out.println("Enter the mail address: ");
+		String l=sc.nextLine();
+		for(int i=l.length()-1;i>=0;i--) {
+			char ch=l.charAt(i);
+			System.out.println("\t"+ch);
+		}
+			if(l.contains("@")) {
+				System.out.println(l+" is a valid mail id");
+			}
+			else {
+				System.out.println(l+ "is not a valid mail id");
+			}
+		//Question 5.2:
+		//Description : Get the address from the user and verify "pincode" is present or not?		
+		System.out.println("Enter Permanent address: ");
+		String m=sc.nextLine();
+		if(m.contains("pincode")) {
+			System.out.println("valid Address ");
+		}
+		else {
+			System.out.println("Not a valid address");
+		}
+		//Question 5.3:
+		//Description:Get the email from the user and verify '@' is present or not and return true or false?
+		System.out.println("Enter Mail address: ");
+		String n=sc.nextLine();
+		boolean flag=false;
+		
+		if(n.contains("@")) {
+			flag=!flag;
+			System.out.println(n+" is a valid mail id "+flag);
+		}
+		else {
+			System.out.println(n+ "is not a valid mail id "+flag);
+		}*/
+		
+		//Question 5.4:
+		//Description:Get the phonenumber from the user and verify any character is present or not .
+        //If character is present return invalid number
+		System.out.println("Enter Phone number: ");
+		String o=sc.nextLine();
+		boolean num = false;
+		boolean s1=false;
+		boolean s2=false;
+		System.out.println(Character.isDigit(o.charAt(0)));
+		for(int i=o.length()-1;i>=0;i--) {
+		num=Character.isDigit(o.charAt(i));
+		
+		//System.out.println("result: "+num);
+		
+		if(num==true) {
+			System.out.println("s1: "+num);
+			s1=num;
+			break;
+		}
+		/*else {
+			System.out.println("s2: "+num);
+			s2=num;
+		}*/
+
+		}
+		System.out.println("s1: "+s1);
+		System.out.println("s2: "+s2);
+		if(s1==true) {
+			System.out.println("Number is not valid");
+		}
+		else if(s2==true) {
+			System.out.println("Number is valid");
+		}
+		//boolean flag1 = 
+		//System.out.println(flag1);
+
+	}
+
+}
